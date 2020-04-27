@@ -1,0 +1,29 @@
+{
+  "name": "bg2engine-web",
+  "version": "1.0.0",
+  "description": "bg2 engine website",
+  "main": "server.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ferserc1/bg2engine.org.git"
+  },
+  "author": "Fernando Serrano Carpena",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/ferserc1/bg2engine.org/issues"
+  },
+  "homepage": "https://github.com/ferserc1/bg2engine.org#readme",
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.4.1",
+    "next": "^9.3.5",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
